@@ -27,7 +27,7 @@ const freelancers = [
         freelancerList.appendChild(li);
 
         // Add the freelancer to the list and update the average
-        freelancers.push({ name, occupation, price });
+        freelancers.push({ name, price, occupation });
         updateAveragePrice();
     };
 
