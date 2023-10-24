@@ -2,7 +2,7 @@ const freelancers = [
     { name: "Alice", price: 30, occupation: "writer" },
     { name: "Bob", price: 50, occupation: "teacher" },
     
-    { name: "Carol", price: 70, occupation: "programmer" },
+   
     
   ];
 
@@ -34,13 +34,13 @@ const freelancers = [
     // Simulate the appearance of new freelancers
     setTimeout(function() {
         addFreelancer('Alice', 'Writer', 30);
-    }, 200);
+    }, 2000);
 
     setTimeout(function() {
         addFreelancer('Bob', 'Teacher', 50);
-    }, 400);
+    }, 4000);
 
     setTimeout(function() {
         addFreelancer('Carol', 'Programmer', 70);
-    }, 600);
+    }, 6000);
 });
